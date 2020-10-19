@@ -1,0 +1,16 @@
+[
+  {
+    "tab": "API",
+    "key": "apiKey",
+    "label": "API Key",
+    "type": "password",
+    "default": ""
+  },
+  {
+    "tab": "Campaigns",
+    "key": "campaignId",
+    "label": "CampaignId",
+    "type": "text",
+    "default": ""
+  }
+]

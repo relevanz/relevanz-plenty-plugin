@@ -1,0 +1,27 @@
+{% if services.template.getCurrentTemplate() == 'tpl.home' %}
+    <script src="https://pix.hyj.mobi/rt?t=d&action=s&cid={{ config('Relevanz.campaignId') }}" async="async"></script>
+{% elseif services.template.getCurrentTemplate() == 'tpl.category.item' %}
+    <script src="https://pix.hyj.mobi/rt?t=d&action=c&cid={{ config('Relevanz.campaignId') }}&id={{ services.category.currentCategory.id }}" async="async"></script>
+{% elseif services.template.getCurrentTemplate() == 'tpl.item' %}
+    <script src="https://pix.hyj.mobi/rt?t=d&action=p&cid={{ config('Relevanz.campaignId') }}&id={{ variationId }}" async="async"></script>
+{% elseif services.template.getCurrentTemplate() == 'tpl.confirmation' %}
+
+    {% set data = services.customer.getLatestOrder() %}
+
+    {% set variationIds = [] %}
+    {% for item in data.order.orderItems %}
+        {% if item.typeId == 1 %}
+            {% set variationIds = variationIds|merge([ item.itemVariationId ]) %}
+        {% endif %}
+    {% endfor %}
+
+    <script src="https://d.hyj.mobi/conv?cid={{ config('Relevanz.campaignId') }}&orderId={{ data.order.id }}&amount={{ data.order.amounts[0].invoiceTotal }}&products={{ variationIds|join(',') }}" async="async"></script>
+{% endif %}
+
+{% for newVariationId in newBasketItems %}
+    <script src="https://pix.hyj.mobi/rt?t=d&action=w&cid={{ config('Relevanz.campaignId') }}&id={{ newVariationId }}" async="async"></script>
+{% endfor %}
+
+{% if removedBasketItems|length != 0 %}
+    <script src="https://pix.hyj.mobi/rt?t=d&action=d&cid={{ config('Relevanz.campaignId') }}&products={{ removedBasketItems|join(',') }}" async="async"></script>
+{% endif %}

@@ -1,0 +1,12 @@
+{
+  "defaultEntryPoint": "index.html",
+  "namespace": "Relevanz",
+  "menuEntries": [
+    {
+      "label": "releva.nz",
+      "entryPoint": "index.html",
+      "menu": "data-exchange",
+      "urlKey": "relevanz"
+    }
+  ]
+}

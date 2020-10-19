@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>releva.nz - Dashboard</title>
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <style>
+        body, html, .main{
+            height:100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h3>loading ...</h3>
+    </div>
+    
+    <script type="text/javascript">
+      $(document).ready(function() {
+        var accesstoken = localStorage.getItem('accessToken');
+        console.log('ready', accesstoken);
+        $.ajax({
+          method: 'GET',
+          url: '/rest/relevanz/settings',
+          dataType: 'json',
+          headers: {
+            Authorization: 'Bearer ' + accesstoken,
+          },
+        })
+        .done(function(data) {
+          $('.main').html('<iframe src="https://customer.releva.nz/?apikey='+data.apiKey+'" style="width:100%; border:0; height:100%;"></iframe>');
+        })
+        .fail(function(){
+          $('.main h3').text('Loading apiKey failed');
+        });
+      });
+    </script>
+</body>
+</html>
