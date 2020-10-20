@@ -12,4 +12,4 @@ For technical questions please contact our tec (tec@releva.nz) or general suppor
 ## License
 The releva.nz plugin is licensed under the MIT License
 
-Copyright (c) 2014 - 2020 releva GmbH, https://releva.nz
+Copyright (c) since 2014 releva GmbH, https://releva.nz
