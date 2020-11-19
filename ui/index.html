@@ -33,7 +33,7 @@
           },
         })
         .done(function(data) {
-          $('.main').html('<iframe src="https://customer.releva.nz/?apikey='+data.apiKey+'" style="width:100%; border:0; height:100%;"></iframe>');
+          $('.main').html('<iframe src="https://frontend.releva.nz/token?token='+data.apiKey+'" style="width:100%; border:0; height:100%;"></iframe>');
         })
         .fail(function(){
           $('.main h3').text('Loading apiKey failed');

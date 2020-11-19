@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "name": "Relevanz",
   "marketplaceName": {
     "de": "releva.nz",
@@ -15,7 +15,7 @@
   "author": "releva GmbH",
   "authorIcon": "icon_author_xs.png",
   "pluginIcon": "icon_plugin_xs.png",
-  "email": "info@releva.nz",
+  "email": "support@releva.nz",
   "phone": "",
   "isClosedSource": true,
   "categories": [
