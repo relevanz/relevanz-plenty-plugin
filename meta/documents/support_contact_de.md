@@ -1,1 +1,1 @@
-Gern helfen wir weiter support@releva.nz oder telefonisch unter der 030 863 82 564
+Gern helfen wir weiter, schick uns einfach eine E-Mail an support@releva.nz oder schau in unserer Knowledge Base vorbei: https://help.releva.nz

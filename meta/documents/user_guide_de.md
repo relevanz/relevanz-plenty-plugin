@@ -14,7 +14,7 @@ Das Plugin muss nur installiert werden, danach läuft es automatisch. Es müssen
 
 Wir sind stets an Ihrer Seite.
 
-## 30 Tage kostenlos testen: Die Testphase ist unverbindlich und muss nicht gekündigt werden!
+## 30 Tage kostenlos testen: Die Testphase ist unverbindlich und kann jederzeit gekündigt werden!
 
 Personalisierte Werbung auf Knopfdruck
 
@@ -46,7 +46,7 @@ Der Export kann unter ***Daten > Elastischer Export > + Neuer Export*** angelegt
 Nachdem der Export angelegt wurde und die Informationen an releva.nz übergeben worden sind, muss nun der Trackingpixel im Frontend integriert werden.
 Dazu sollte der DataProvider ***Trackingpixel (Relevanz)*** unter ***Plugins > Content*** einem Container im head der Seite verknüpft werden.
 
-Bei Verwendung von ***IO*** und ***Ceres***, wird emfpholen den Container ***Template: Style***  zu verwenden.
+Bei Verwendung von ***IO*** und ***Ceres***, wird empfohlen den Container ***Template: Style***  zu verwenden.
 
 ## Auswertung
 Innerhalb des Backends können die Statistiken unter ***Daten > releva.nz*** ausgewertet werden.

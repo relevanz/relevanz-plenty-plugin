@@ -1,52 +1,53 @@
-# releva.nz - Intelligentes Retargeting wie die "Großen"
+# releva.nz - Intelligent retargeting like the "big ones"
 
-Mit dem releva.nz-Plugin können Shopbetreiber einfach und unkompliziert ihre Besucherzahlen und somit auch den Umsatz erhöhen!
+With the releva.nz plugin, shop owners can easily increase their visitor numbers and thus their sales!
 
-Höhere Besucherzahlen, mehr Umsatz und das bei geringen Marketingkosten: Für all das spricht die releva.nz-Technologie auf welche das Plugin zurückgreift. Wir holen die verloren Besucher zurück in Deinen Online-Shop.
+Higher visitor numbers, more sales and all this at low marketing costs: The releva.nz technology on which the plugin is based speaks for all this. We bring the lost visitors back into your online store.
 
 [Erfahre mehr in unserem Erklärvideo](https://releva.nz/erklaervideo)
 
-Das Plugin markiert & analysiert die Besucher des jeweiligen Online-Shops auf den verschiedenen Ebenen Startseite, Kategorie-Seite, Produktseite, Warenkorb & Bestellabschlusseite). Wenn ein Besucher keinen Kauf tätigt, wird diesem nach verlassen des Shops auf Drittseiten (Wetterseiten, News-Portale, Communitys, Blogs, und vieles mehr) erneut Besucherinteressenbasierte Werbung für den Online-Shop angezeigt.
+The Plugin tags & analyzes the visitors of the respective shop on the different levels homepage, category, product, cart & order page. If a visitor doesn't make a purchase and leaves the store we gonna shop the user interest based advertising on external website (like weather sites, news portals, communities, blogs, and much more).
 
-Da der jeweiligen Person individuelle & dynamische Werbemittel mit den Produkten angezeigt werden, welche er sich zuvor angesehen hat, haben diese Werbemittel eine sehr hohe Interaktionsrate und sorgen zugleich für eine deutlich steigende Bestell-Abschlussquote.
+Since the respective person is shown individual & dynamic advertising material with the products he or she has previously viewed, these advertising materials have a very high interaction rate and at the same time ensure a significantly increasing order completion rate.
 
-Das Plugin muss nur installiert werden, danach läuft es automatisch. Es müssen keine Werbemittel erstellt werden: Das Plugin zieht automatisch die Produkte aus dem Online-Shop und erstellt daraus dynamische Werbemittel. Auf Wunsch können auch eigene Werbemittel, wie Native Ads, Mobile Werbemittelformate oder auch Videos ausgespielt werden.
+The plugin only needs to be installed, after that it runs automatically. No advertising material needs to be created: The plugin automatically pulls the products from the online store and creates dynamic advertising materials from them. If desired, own advertising material, such as native ads, mobile advertising material formats or even videos can be played.
 
-Wir sind stets an Ihrer Seite.
+We are always at your side.
 
-## 30 Tage kostenlos testen: Die Testphase ist unverbindlich und muss nicht gekündigt werden!
+## 30 days free trial
 
-Personalisierte Werbung auf Knopfdruck
+Personalized advertising at the push of a button
 
-- Hier anmelden
-- releva.nz-Plugin installieren
-- Zugang erhalten
-- Werbeaussteuerung startet
-- Statistiken zeigen Informationen über wiedergebrachte Kunden, Warenkorbwert, Werbebudget u.v.m.
+- Register here
+- install releva.nz plugin
+- Get access
+- Advertising starts
+- Statistics show information about returned customers, shopping cart value, advertising budget and much more.
 
-## Die Vorteile
+## Advantages
 
-- Kostenlos releva.nz im vollem Umfang 30 Tage testen und überzeugen lassen
-- Minimierung der Streuverluste da nur Kunden Werbung gezeigt wird welche sich bereits für Ihre Produkte interessiert haben
-- Abverkauf & Aufmerksamkeit steigern
-- Branding des Shops erhöhen
-- Dynamisches Retargeting
-- Geringe Kosten durch eine eigene selbstlernende Technologien & intelligente Algorithmen
-- Rundum Support
-- Werbebudget direkt im Plugin einstellbar, z.B 10,50 EUR
-- Transparent durch Echtzeitstatistiken im Plugin
+- Free of charge in the first 30 days
+- Minimization of wastage because only customers who have already shown interest in your products are shown advertising
+- Increase sales & attention
+- Increase branding of the store
+- Dynamic Retargeting
+- Low costs due to own self-learning technologies & intelligent algorithms
+- All-round support
+- Advertising budget directly in the Plugin adjustable, e.g. 10.50 EUR
+- Transparent through real-time statistics in the plugin
 
-Fragen? Gern helfen wir weiter support@releva.nz oder telefonisch unter der 030 863 82 564
 
-## Einrichtung
-Das releva.nz Plugin ist in wenigen Schritten einsatzbereit. Nachdem das plugin installiert wurde, muss ein Produkt-Export angelegt werden. Dieser wird von releva.nz benötigt um das Nuzerverhalten im Frontend den jeweiligen Produkten zuordnen zu können.
+Questions? We are happy to help, just send us an e-mail to support@releva.nz or have a look at our Knowledge Base: https://help.releva.nz
 
-Der Export kann unter ***Daten > Elastischer Export > + Neuer Export*** angelegt werden. Als Format muss ***releva.nz*** gewählt werden, die empfohlene Bereitstellung ist ***URL***.
+## Getting started
+The releva.nz plugin is ready to use in a few steps. After installing the plugin, a product export must be created. This is needed by releva.nz to assign the user behavior in the frontend to the respective products.
 
-Nachdem der Export angelegt wurde und die Informationen an releva.nz übergeben worden sind, muss nun der Trackingpixel im Frontend integriert werden.
-Dazu sollte der DataProvider ***Trackingpixel (Relevanz)*** unter ***Plugins > Content*** einem Container im head der Seite verknüpft werden.
+The export is created here: ***Data > Elastic Export > + New Export***. As a format, you need to choose ***releva.nz***, and the recommened way of provision ***URL***.
 
-Bei Verwendung von ***IO*** und ***Ceres***, wird emfpholen den Container ***Template: Style***  zu verwenden.
+After the export has been created and the information has been transferred to releva.nz, the tracking pixel must now be integrated in the frontend.
+Therefore you need to link the DataProvider ***Trackingpixel (Relevanz)*** under ***Plugins > Content*** within a container in the head of the shop.
 
-## Auswertung
-Innerhalb des Backends können die Statistiken unter ***Daten > releva.nz*** ausgewertet werden.
+When using ***IO*** and ***Ceres***, we recommend to use the Container ***Template: Style***.
+
+## Statistics
+Within the backend you could find the statistics via ***Data > releva.nz***.
