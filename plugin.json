@@ -29,7 +29,7 @@
   ],
   "type": "template",
   "require": {
-    "ElasticExport":"1.*"
+    "ElasticExport":">=1.0.0"
   },
   "namespace": "Relevanz",
   "containers": [],
