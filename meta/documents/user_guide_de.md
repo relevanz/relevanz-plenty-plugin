@@ -36,7 +36,7 @@ Personalisierte Werbung auf Knopfdruck
 - Werbebudget direkt im Plugin einstellbar, z.B 10,50 EUR
 - Transparent durch Echtzeitstatistiken im Plugin
 
-Fragen? Gern helfen wir weiter support@releva.nz oder telefonisch unter der 030 863 82 564
+Fragen? Gern helfen wir weiter, schick uns einfach eine E-Mail an support@releva.nz oder schau in unserer Knowledge Base vorbei: https://help.releva.nz
 
 ## Einrichtung
 Das releva.nz Plugin ist in wenigen Schritten einsatzbereit. Nachdem das plugin installiert wurde, muss ein Produkt-Export angelegt werden. Dieser wird von releva.nz benötigt um das Nuzerverhalten im Frontend den jeweiligen Produkten zuordnen zu können.

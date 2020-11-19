@@ -21,7 +21,7 @@ class Credentials extends CheckProcess
             $this->addError('Relevanz: API Key is missing.');
         } else {
             $ch = curl_init();
-            curl_setopt($ch, CURLOPT_URL, "http://api.hyj.mobi/user/get?apikey=".$apiKey);
+            curl_setopt($ch, CURLOPT_URL, "https://backend.releva.nz/v1/campaigns/get?apikey=".$apiKey);
             curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
             $output = json_decode(curl_exec($ch), true);
             curl_close($ch);
