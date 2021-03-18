@@ -1,14 +1,25 @@
-[
-  {
-    "tab": "API",
-    "key": "api.apiKey",
-    "label": "API Key",
-    "type": "password"
-  },
-  {
-    "tab": "Campaigns",
-    "key": "campaigns.campaignId",
-    "label": "CampaignId",
-    "type": "text"
+{
+  "formatVersion": 1,
+  "menu": {
+      "Config.ConfigTab": {
+          "label": "Config.ConfigTab",
+          "formFields": {
+              "apiKey": {
+                  "type": "inputText",
+                  "required": true,
+                  "label": "Config.apiKeyLabel",
+                  "options": {
+                      "isPassword": true,
+                      "isIBAN": false
+                  }
+              },
+              "campaignId": {
+                "type": "inputText",
+                "required": true,
+                "label": "Config.campaignIdLabel",
+                "options": {}
+            }              
+          }
+      }
   }
-]
+}

@@ -25,7 +25,10 @@
     "plentymarkets",
     "plugins",
     "releva.nz",
-    "tracking"
+    "tracking",
+    "retargeting",
+    "remarketing",
+    "marketing"
   ],
   "type": "template",
   "require": {
