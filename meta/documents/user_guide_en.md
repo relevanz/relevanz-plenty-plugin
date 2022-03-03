@@ -1,10 +1,30 @@
-# releva.nz - Intelligent retargeting like the "big ones"
+# releva.nz - Automated, dynamic retargeting
 
-With the releva.nz plugin, shop owners can easily increase their visitor numbers and thus their sales!
+With the releva.nz plugin, you can turn visitors into buyers even if they have already left your webshop - with the help of personalized display ads and our automated campaign optimization based on self-learning algorithms.  
 
 Higher visitor numbers, more sales and all this at low marketing costs: The releva.nz technology on which the plugin is based speaks for all this. We bring the lost visitors back into your online store.
 
-[Erfahre mehr in unserem Erklärvideo](https://releva.nz/erklaervideo)
+[Learn more in our explanatory video](https://releva.nz/erklaervideo)
+
+## Highlights
+
+- Increase store sales by up to 15% with dynamic retargeting
+- With a few clicks to the first retargeting campaign
+- 30 days free trial and 30 Euro advertising budget for free
+- DSVGO-compliant use of retargeting technology
+- Plugin manufacturer from Germany with personal support
+
+## Features
+
+- Automatic creation of dynamic advertising banners
+- Optimal use of the daily budget
+- Campaign optimization based on artificial intelligence
+- Automated integration of retargeting pixels
+- Dosed use of advertisements
+- Ads are delivered to over 30 advertising networks
+- Real-time statistics directly in the PlentyMarkets webshop backend
+
+## Details
 
 The Plugin tags & analyzes the visitors of the respective shop on the different levels homepage, category, product, cart & order page. If a visitor doesn't make a purchase and leaves the store we gonna shop the user interest based advertising on external website (like weather sites, news portals, communities, blogs, and much more).
 
@@ -12,34 +32,14 @@ Since the respective person is shown individual & dynamic advertising material w
 
 The plugin only needs to be installed, after that it runs automatically. No advertising material needs to be created: The plugin automatically pulls the products from the online store and creates dynamic advertising materials from them. If desired, own advertising material, such as native ads, mobile advertising material formats or even videos can be played.
 
-We are always at your side.
-
-## 30 days free trial
-
-Personalized advertising at the push of a button
-
-- Register here
-- install releva.nz plugin
-- Get access
-- Advertising starts
-- Statistics show information about returned customers, shopping cart value, advertising budget and much more.
-
-## Advantages
-
-- Free of charge in the first 30 days
-- Minimization of wastage because only customers who have already shown interest in your products are shown advertising
-- Increase sales & attention
-- Increase branding of the store
-- Dynamic Retargeting
-- Low costs due to own self-learning technologies & intelligent algorithms
-- All-round support
-- Advertising budget directly in the Plugin adjustable, e.g. 10.50 EUR
-- Transparent through real-time statistics in the plugin
-
-
 Questions? We are happy to help, just send us an e-mail to support@releva.nz or have a look at our Knowledge Base: https://help.releva.nz
 
 ## Getting started
+
+Complete installation instructions: https://help.releva.nz/de/plentymarkets-installation 
+
+--
+
 The releva.nz plugin is ready to use in a few steps. After installing the plugin, a product export must be created. This is needed by releva.nz to assign the user behavior in the frontend to the respective products.
 
 The export is created here: ***Data > Elastic Export > + New Export***. As a format, you need to choose ***releva.nz***, and the recommened way of provision ***URL***.

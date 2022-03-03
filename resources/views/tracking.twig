@@ -1,8 +1,11 @@
 {% if services.template.getCurrentTemplate() == 'tpl.home' %}
+Home
     <script src="https://pix.hyj.mobi/rt?t=d&action=s&cid={{ config('Relevanz.campaignId') }}" async="async"></script>
 {% elseif services.template.getCurrentTemplate() == 'tpl.category.item' %}
+Category Item
     <script src="https://pix.hyj.mobi/rt?t=d&action=c&cid={{ config('Relevanz.campaignId') }}&id={{ services.category.currentCategory.id }}" async="async"></script>
 {% elseif services.template.getCurrentTemplate() == 'tpl.item' %}
+Items {{ services.item.id }} oder {{ item.id }}
     <script src="https://pix.hyj.mobi/rt?t=d&action=p&cid={{ config('Relevanz.campaignId') }}&id={{ variationId }}" async="async"></script>
 {% elseif services.template.getCurrentTemplate() == 'tpl.confirmation' %}
 
